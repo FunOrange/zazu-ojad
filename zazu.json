@@ -18,7 +18,7 @@
       {
         "id": "lookup",
         "type": "OpenInBrowser",
-        "url": "http://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:{value}"
+        "url": "{value}"
       }
     ]
   }
