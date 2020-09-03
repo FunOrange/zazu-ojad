@@ -1,14 +1,14 @@
 module.exports = (pluginContext) => {
-   return (term, env = {}) => {
-      return new Promise((resolve, reject) => {
-         resolve([
-            {
-               icon: 'fa-hand-spock-o',
-               title: 'OJAD',
-               subtitle: 'Look up pitch accent.',
-               value: `http://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:${term}`
-            }
-         ])
-      })
-   }
+  return (name, env = {}) => {
+    return new Promise((resolve, reject) => {
+      resolve([
+        {
+          icon: 'fa-hand-spock-o',
+          title: `Hello, ${name}!`,
+          subtitle: 'Please type your name!',
+          value: `http://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:${name}`,
+        },
+      ])
+    })
+  }
 }
