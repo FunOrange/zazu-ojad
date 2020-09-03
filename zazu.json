@@ -10,6 +10,7 @@
         "prefix": "pa",
         "space": true,
         "args": "Required",
+        "script": "src/hello.js",
         "connections": ["lookup"]
       }
     ],
